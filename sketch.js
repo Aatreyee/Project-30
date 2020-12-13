@@ -116,7 +116,7 @@ function mouseReleased(){
 
 function keyPressed(){
   if(keyCode===32){
-    sling.attach(this.polygon);
+    sling.attach(polygon.body);
   }
 }
 
